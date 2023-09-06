@@ -1,16 +1,9 @@
+import NavbarLogin from "./NavbarLogin";
+
 function Landing() {
   return (
     <>
-      <nav className="navbar navbar-light bg-dark">
-        <div className="content">
-          <img className="logo" src="/logo_verde.png" alt="T-Sho logo" />
-        </div>
-        <div className="text-light me-4">
-          <button type="button" className="btn signin  my-auto me-1">
-            Login
-          </button>
-        </div>
-      </nav>
+      <NavbarLogin />
 
       <div
         className="container-fluid mt-5 ms-4"
