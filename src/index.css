@@ -144,3 +144,46 @@ form .form-help :where(label, a) {
 .form-login p a {
   color: #fff;
 }
+
+@media (max-width: 740px) {
+  body::before {
+    display: none;
+  }
+
+  nav,
+  .form-login,
+  .form-signup {
+    padding: 20px;
+  }
+
+  nav a img {
+    width: 140px;
+  }
+
+  .form-login,
+  .form-signup {
+    width: 100%;
+    top: 43%;
+  }
+
+  .form-login form,
+  .form-signup form {
+    margin: 25px 0 40px;
+  }
+}
+@media (max-height: 740px) {
+  nav,
+  .form-login,
+  .form-signup {
+    padding: 20px;
+  }
+
+  nav a img {
+    height: 140px;
+  }
+
+  .form-login form,
+  .form-signup form {
+    margin-top: 50px;
+  }
+}

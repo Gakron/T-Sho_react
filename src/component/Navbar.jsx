@@ -7,10 +7,6 @@ function Navbar() {
     navigate("/");
   };
 
-  const handleLoginButtonClick = () => {
-    navigate("/login");
-  };
-
   return (
     <nav className="navbar navbar-light bg-dark">
       <div className="content">

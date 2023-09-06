@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 
-function LoginForm() {
+function RegisterForm() {
   const navigate = useNavigate();
 
   const handleSignupButton = () => {
-    navigate("/register");
+    navigate("/login");
   };
 
   return (
@@ -28,10 +28,10 @@ function LoginForm() {
         </div>
       </form>
       <p>
-        Not yet one of us? <a onClick={handleSignupButton}>Sign up</a>
+        Not yet one of us? <a onClick={handleLoginButton}>Sign up</a>
       </p>
     </div>
   );
 }
 
-export default LoginForm;
+export default RegisterForm;
