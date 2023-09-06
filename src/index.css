@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #588157;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333;
+  border-bottom: #775b59 2px solid;
+}
+
+.logo {
+  margin: 15px 0px 10px 15px;
+  width: 220px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.profile-img {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-item img {
+  width: 48px;
+  height: 48px;
+  background-color: #a3b18a;
+  border-radius: 200px 200px 200px 200px;
+}
+
+.signin {
+  background-color: #a3b18a;
+}
